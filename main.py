@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def get_data():
-    subprocess.Popen(['python', '/home/misha/PycharmProjects/etc-test/script.py'])
+    # subprocess.Popen(['python', '/home/misha/PycharmProjects/etc-test/script.py'])
     return "<h1>Успешно запущено!</h1>"
 
 if __name__ == '__main__':
